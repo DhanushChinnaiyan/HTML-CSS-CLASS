@@ -1,0 +1,210 @@
+----------//CSS NOTES-DAY(9)----------
+
+     1)What is css?
+     2)different types of using css?
+     3)selector,properties and value ? ->interviw question
+     4)class vs id? ->interviw question
+     5)use of important  ->interviw question
+     6)display property: inline, block,inline-block,flax,grid 
+----------------------------------------------------------------------------------------------------------------------------------------------------   
+1)What is css?
+       (css-cascading style sheet)- style the whole html page or website
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------ ---------    
+
+ 2)different types of using css?
+     1)inline css -first priority
+     2)internal CSS -second priority
+     3)external CSS -third priority
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3)selector,properties and value ?
+   external css la h1 select panni color mathrathaala h1 -selctor.
+      h1{
+        color: white;
+        }
+      h1-selector;
+      color-properties;
+      white-value;
+
+
+           //properties:
+               1)list properties
+               2)font properties
+               3)text properties
+               4)border properties
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4)class vs id? (html,css-code pathave puriyum)
+        class->multiple selector(not unique)-neraya selector aa use pannalam but ithu unique aaa irukaathu(multiple code ku same color kudukarathuku use agum)
+            (eg:entha code kulamm same color and vera changes kudukunum nu nenaikaramo athukulaam class kudukanum)
+        
+        
+        id->unique selector(unique)-ithu unique aa onnu mattum thaan use pannuvom (ovoru code kum color thanithaniya add pannuvoom)
+             (eg:entha code kulamm vera vera color and changes pannanum nu nenikuroomo athukulamm id kudukanum)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5)use of important:(eg:in code 42 in css)
+      (!important-ipdi namba kuduthuttam na marubadiyum antha color or vera changes ethuvume matha mudiyathu)        
+       (inline style la color kuduthalume external la important kudutha important mattum thaan eduthukkum)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6)display property: inline, block,inline-block-flax,grid 
+     1)inline->width and height value eduthukaathu
+     2)block->width and height value eduthukum 
+     3)inline-block->inline kku ulla block aa eduthukum 
+        (eg;code 83-109 ovvonna code a command la irunthu eduthuttu pakkanum)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+************************************************************************************************************************************************************************************************************
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+----------//CSS NOTES-DAY(10)----------
+
+  1)pseudo-classes
+     (link visited hover active)
+  2)box-model-> interview questions
+  3)padding margin border
+-------------------------------------------------------------------------
+
+  (additional concept):
+         (section la id creat pannittu antha id la irukkura contant varathukaga antha id ya kondu pooi header la or enga nambalukku varunumo antha tex ku 
+         <a href="# that id name"> ippdi pootta antha word click panna athood contant ku pooidum(# ku ethukaga use panranga na athu id selector athanalathaan) 
+---------------------------------------------------------------------------
+
+1)pseudo-classes:
+
+   i)anchor tag link irunthuchuna athooda color mathunumna:(antha link nmba browsor la ithuvarikum visite pannala na mattum thaan ithu act agum)
+      a:link{
+          color:black;
+       }
+   ii)antha link click pannitta antha link color matharathuku
+      a:visited{
+          color:red;
+        }
+
+   iii)antha link thoda pogumboothu antha olor matha:
+       a:hover{
+         color:green;
+        }
+
+   iv)antha link click pannumboothu colora matharathuku:
+      a:active{
+         color:blue;
+       }
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2)box-model-(inspect la oru box maari irukkum atha paaru-athula firdt ullara irukkarathu nambalooda screen athuku mela irukarathu padding athuku mela irukkarathu 
+            border athukumela irukarathu margin ithu thaan box ood model)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3)padding margin border
+         (css la * kudutha entire website ku ulla irukura content yum change panrathukaga)
+           (default aa body yooda padding and margin 0px la vaikrathu excess aa iruka space remove aaidum)
+    i)padding--> na content ku ulla space venumu na kudukarathu
+              types:
+                  padding top,bottom,left,right
+     ii)margin--> na content ku veliya space venumu na kudukarathu
+             types:
+                 margin top,bottom,left,right
+-------------------------------------------------------------------------------------------------------------------------------------
+
+3)gradient:
+    (gradient na oru color la irunthu innoru color varathuku use pannuvanga )
+ 
+    i(thu nerya type iruku athula namba linear gradient matttum use panni irukoom)
+    (innum nerayairuku athu website la explore pnnu)
+---------------------------------------------------------------------------------------------------------------------------------------
+
+4)position property: fixed,static,relative,absolute,sticky
+    i)absolute:
+        ithu vanthu window starting thaa parent aa eduthukum
+
+    ii}relative:(but antha sectionooda id ya position la relative nu kuduthutta athooda screen aa thaaan eduthukum)
+        ithu namba kudukura section la kudukura id ooda screen aa parent aa eduthukum     
+
+    iii)fixed:
+       position la fixed kuduthuttum na athu athe position la thaan irukkum example la ella website la heder la irukka home button evlo scrooll pannalum athe position la 
+       thaanirukkum athu thaan example)
+
+
+    iv)sticky:
+       sticky yum same thaan but athu athooda parrent variyum fixed aa irukkum
+       eg nambalooda code la paru
+-------------------------------------------------------------------------------------------------------------------------------------------
+5)parent inherit 
+  inherit::
+      parentodda olora aa vara vaikurathuku use panrathu thaan inherit
+      example:
+          poistion la inherit nu kuthuta athooda parent colora eduthukkum
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+************************************************************************************************************************************************************************************************************
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+----------//CSS NOTES-DAY(10-additional class)----------
+
+1)Grid
+2)Flex - display, direction, wrap, flex-flow, justify-content, align-content 
+-------------------------------------------
+
+(ethachum click pannumboothu smootha scroll agarathuku css la)
+ html{
+  scroll-behavior:smooth;
+ }
+
+flex,grid ku thani thaniya page create panniyachu
+-----------------------------------------------------------------------------------------------------------------------------------------------
+1)Grid:
+     grid la namba nenacha mari layout mathi vachikalam ithu codin and chrome la patha thaan puruyum
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+2)Flex - display, direction, wrap, flex-flow, justify-content, align-content :
+
+   0)display:(etha display pannanum nu solrathu blo,inline,flex,grid)
+
+   1)justify-content->(act in x-axis)
+        Types:
+          center
+          flex-start
+          flex-end 
+          space-around
+          space-between
+          space-evenly
+
+  2)align-content->(act in y-axis)
+        Types:
+          center
+          flex-start
+          flex-end 
+          space-around
+          space-between
+          space-evenly      
+
+  3)align-item->(act in y-axis)
+       Types:
+         center
+         flex-start
+         flex-end
+
+  4)flex-direction
+      row->(row la act agum)
+      column->(column la act agum)
+
+  5)wrap:(wrap panna thannanlaye kela mela nu align ayukkum)   
+      flex-wrap: wrap; 
+
+  6)flex-flow:(flex-flow na antha flex epdi irukanumnu kamikkarathhu)
+      flex-flow: column;
+      flex-flow: row;
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+************************************************************************************************************************************************************************************************************
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
