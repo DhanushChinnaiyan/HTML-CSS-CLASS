@@ -200,7 +200,53 @@ flex,grid ku thani thaniya page create panniyachu
 ************************************************************************************************************************************************************************************************************
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+overflow - hidden, scroll, auto, visible
+dropbox
+measurements 
+fonts 
+icons 
+media query
 
+
+1)OVERFLOW:
+  overflow:visible;
+   default content epdi theriyutho athu thaan vsible.
+  overflow: hidden;
+   namba kudutha height and width thavara athigama irukka content hide airum
+  overflow:scroll;
+   na conten ullayae scroll panrathukaaga
+  overflow: auto;
+   inbuild browser automatically eduthukum size a poruthu
+
+2)MEASUREMENTS:-em,rem,vh,viewport,%
+
+   i)em-element size:-normal aa iruka size a 2 em nu kudutha athooda size 2 madanga athigama irukkum athuthan em.
+
+   ii)rem-root element size:-ithuvanthu parent la namba kudukura size aa 1 rem aa eduthukum (eg:class="overfolw"-font size:10 px kudukuroom athuku apram overfolw-main la 2 rem nu kudutha athooda value 20px la irukum)
+
+   iii)%-(ithuvanthu namba parent la evlo size kudukuromo atha vachi eduthukum eg:parent la div size 40 px kudukuram na adutha div ooda size la 50 % kudutha antha parent oda size la iruntha 50 % a eduthukum)
+ 
+   iv)vh-(view hieght)-(vh-only height and width la thaan kudukunum)console la top la ovoru device ku ovoru height irukum (namba 50 vh kudutha device oda size la irunthu pathiya koranjidum)
+
+   v)viewport:-console la irukura motha size thaan viewport
+
+3)FONT:
+   fonts.google.com pooi fonts ku pooi entha fonts venumoo atha select panni keela sroll panni slect regula kuduthu top la right side la irukka box click pnni copy panni html la head layum aduthu css odathu copy panni external css la paste pannanum 
+4)ICON:
+   fonts.google.com pooi icon ku pooi entha icon venumoo atha select panni athooda static icon font copy panni html la head la podanum aduthu insert icon copy panni nambalukku entha edatha venumoo anga podanum
+
+5)MEDIA QUERY:
+    ithu ethukaga use aguthuna nambaluku thevaya width la changes kodu varathukaga use aguthuna
+    max-width 1200 la background-color;blue nu kudukkumboothu width 1200 irukura variyum blue color la irukkum athukku apram marubadiyum
+    
+
+
+
+
+
+
+
+    
 
 
 
