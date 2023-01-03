@@ -129,7 +129,7 @@
 -------------------------------------------------------------------------------------------------------------------------------------------
 5)parent inherit 
   inherit::
-      parentodda olora aa vara vaikurathuku use panrathu thaan inherit
+      parentodda colora aa vara vaikurathuku use panrathu thaan inherit
       example:
           poistion la inherit nu kuthuta athooda parent colora eduthukkum
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -188,7 +188,7 @@ flex,grid ku thani thaniya page create panniyachu
       row->(row la act agum)
       column->(column la act agum)
 
-  5)wrap:(wrap panna thannanlaye kela mela nu align ayukkum)   
+  5)wrap:(wrap panna thannalaye kela mela nu align ayukkum)   
       flex-wrap: wrap; 
 
   6)flex-flow:(flex-flow na antha flex epdi irukanumnu kamikkarathhu)
@@ -238,8 +238,12 @@ media query
 5)MEDIA QUERY:
     ithu ethukaga use aguthuna nambaluku thevaya width la changes kodu varathukaga use aguthuna
     max-width 1200 la background-color;blue nu kudukkumboothu width 1200 irukura variyum blue color la irukkum athukku apram marubadiyum
-    
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+************************************************************************************************************************************************************************************************************
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------   
 
+BOOTSTRAP:
+       
 
 
 
